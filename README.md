@@ -222,6 +222,24 @@ Are you ready to test the chatbot? After you copy the above code into the app.py
 
 The service is now running as a private service on port 5000 inside your computer and will sit there waiting for incoming connections. To make this service reachable from the Internet we need to use ngrok.
 
+### Installing ngrok
+
+For windows users:
+
+1. UNZIP TO INSTALL
+On Windows, just double click ngrok.zip.
+
+2. CONNECT YOUR ACCOUNT
+Running this command will add your authtoken to your ngrok.yml file. Connecting an account will list your open tunnels in the dashboard, give you longer tunnel timeouts, and more. Visit the dashboard to get your auth token. Once you signup, you will get your auth token. 
+```
+./ngrok authtoken <your_auth_token>
+```
+3. FIRE IT UP
+Try running it from the command line:
+```
+./ngrok help
+```
+
 Open a second terminal window and run `ngrok http 5000` to allocate a temporary public domain that redirects HTTP requests to our local port 5000. The output of ngrok should be something like this:
 
 ```
@@ -253,10 +271,10 @@ For any queries, ping:
 -- 
 Karthikeyan NG
 
-Amazon: https://www.amazon.com/s?k=karthikeyan+ng
-Github: http://github.com/intrepidkarthi
-LinkedIn: https://linkedin.com/in/intrepidkarthi
-Twitter: https://twitter.com/intrepidkarthi
+Amazon: https://www.amazon.com/s?k=karthikeyan+ng <br/>
+Github: http://github.com/intrepidkarthi<br/>
+LinkedIn: https://linkedin.com/in/intrepidkarthi<br/>
+Twitter: https://twitter.com/intrepidkarthi<br/>
 _________________________________________________
 
 
