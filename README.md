@@ -275,6 +275,7 @@ Amazon: https://www.amazon.com/s?k=karthikeyan+ng <br/>
 Github: http://github.com/intrepidkarthi<br/>
 LinkedIn: https://linkedin.com/in/intrepidkarthi<br/>
 Twitter: https://twitter.com/intrepidkarthi<br/>
+Email: intrepidkarthi@gmail.com
 _________________________________________________
 
 
