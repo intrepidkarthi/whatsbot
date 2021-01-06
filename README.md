@@ -66,7 +66,7 @@ PS C:\path\to\app> $env:FLASK_APP = "hello.py"
 Alternatively you can use python -m flask:
 ```
 $ export FLASK_APP=hello.py
-$ python -m flask run
+$ python3 -m flask run
  * Running on http://127.0.0.1:5000/
 ```
 This launches a very simple builtin server, which is good enough for testing but probably not what you want to use in production. For deployment options see Deployment Options.
@@ -106,7 +106,7 @@ with this, lets start writing our bot
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/bot’, methods=['POST'])
+@app.route('/bot', methods=['POST'])
 def bot():
     # add webhook logic here and return a response
 
